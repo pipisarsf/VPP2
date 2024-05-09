@@ -1,0 +1,103 @@
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 50px 10px;
+    border: 1px solid rgb(41, 128, 185);
+    margin: 10px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(27deg, rgb(52, 73, 94) 50%, rgb(44, 62, 80) 50%);
+  }
+  
+  .form-body img {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10%;
+    color: #ffffff;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+  
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(27deg, rgb(52, 73, 94) 50%, rgb(44, 62, 80) 50%);
+  }
+  
+  button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: buttonface;
+    padding: 1px 6px;
+    border: 2px outset buttonborder;
+    border-radius: 0;
+    margin: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #b9c4c6;
+    border: 2px solid #2980b9;
+    transition: all 0.5s ease;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  
+  .form-body button:hover{
+    color: #8b999c;
+    border: 1px solid #3498bd;
+    background: linear-gradient(#34495c, #2c3e50);
+  }
+  
+  /* Corrección en el selector */
+  .form-body label {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 25px;
+   
+  }
+  
